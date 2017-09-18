@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+    <definition name="base.definition" template="/WEB-INF/views/layout.jsp">
+        <put-attribute name="title" value="" />
+        <put-attribute name="header" value="/WEB-INF/views/header.jsp" />        
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="/WEB-INF/views/footer.jsp" />
+    </definition>
+
+    <definition name="basicCashflowCalculator" extends="base.definition">
+        <put-attribute name="body" value="/WEB-INF/views/basicCashflowCalculator.jsp" />
+    </definition>
+ 
+    <definition name="cashflowCalculator" extends="base.definition">
+        <!-- <put-attribute name="title" value="Cash-flow Calculator" /> -->
+        <put-attribute name="body" value="/WEB-INF/views/cashflow_calculator.jsp" />
+    </definition>
+
+    <definition name="homePage" extends="base.definition">
+        <!-- <put-attribute name="title" value="Home" /> -->
+        <put-attribute name="body" value="/WEB-INF/views/home.jsp" />
+    </definition>
+
+    <definition name="services" extends="base.definition">
+        <!-- <put-attribute name="title" value="Services" /> -->
+        <put-attribute name="body" value="/WEB-INF/views/Services.jsp" />
+    </definition>
+
+    <definition name="promotionalLinks" extends="base.definition">
+        <!-- <put-attribute name="title" value="Promotional Links" /> -->
+        <put-attribute name="body" value="/WEB-INF/views/PromotionalLinks.jsp" />
+    </definition>
+
+    <definition name="contactUs" extends="base.definition">
+        <put-attribute name="body" value="/WEB-INF/views/ContactUs.jsp" />
+    </definition>
+    
+    <definition name="registrationPage" extends="base.definition">
+        <put-attribute name="body" value="/WEB-INF/views/registrationPage.jsp" />
+    </definition>
+    
+    <definition name="loginPage" extends="base.definition">
+        <put-attribute name="body" value="/WEB-INF/views/loginPage.jsp" />
+    </definition>
+    <definition name="myProfilePage" extends="base.definition">
+        <put-attribute name="body" value="/WEB-INF/views/myProfilePage.jsp" />
+    </definition>
+
+    <definition name="cashflowCalcResult" extends="base.definition">
+        <put-attribute name="body" value="/WEB-INF/views/cashflowOutput.jsp" />
+    </definition>
+    
+    <!-- Error Pages -->
+    <definition name="403" extends="base.definition">
+        <put-attribute name="body" value="/WEB-INF/views/403.jsp" />
+    </definition>
+    
+    <definition name="error" extends="base.definition">
+        <put-attribute name="body" value="/WEB-INF/views/error.jsp" />
+    </definition>
+    
+</tiles-definitions>

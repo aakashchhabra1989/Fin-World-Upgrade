@@ -1,0 +1,16 @@
+insert into finworld.frequency (id, code, createdBy,createdDate, display, isActive, systemofRecordsX, updatedBy, updatedDate, yearlyTransaction, sortOrder) 
+	values(1, 'YEARLY', 'MANUAL' , NOW(), 'Yearly', 1, 'FINWORLD', 'MANUAL', NOW(), 1, 1 );
+insert into finworld.frequency (id, code, createdBy,createdDate, display, isActive, systemofRecordsX, updatedBy, updatedDate, yearlyTransaction, sortOrder) 
+	values(2, 'HALFYEARLY', 'MANUAL' , NOW(), 'Half-Yearly', 1, 'FINWORLD', 'MANUAL', NOW(), 2, 2 );
+insert into finworld.frequency (id, code, createdBy,createdDate, display, isActive, systemofRecordsX, updatedBy, updatedDate, yearlyTransaction, sortOrder) 
+	values(3, 'QUATERLY', 'MANUAL' , NOW(), 'Quaterly', 1, 'FINWORLD', 'MANUAL', NOW(), 4, 3 );	
+insert into finworld.frequency (id, code, createdBy,createdDate, display, isActive, systemofRecordsX, updatedBy, updatedDate, yearlyTransaction, sortOrder) 
+	values(4, 'MONTHLY', 'MANUAL' , NOW(), 'Monthly', 1, 'FINWORLD', 'MANUAL', NOW(), 12, 4 );
+insert into finworld.frequency (id, code, createdBy,createdDate, display, isActive, systemofRecordsX, updatedBy, updatedDate, yearlyTransaction, sortOrder) 
+	values(5, 'BIMONTHLY', 'MANUAL' , NOW(), 'Bi-Monthly', 1, 'FINWORLD', 'MANUAL', NOW(), 24, 5 );	
+insert into finworld.frequency (id, code, createdBy,createdDate, display, isActive, systemofRecordsX, updatedBy, updatedDate, yearlyTransaction, sortOrder) 
+	values(6, 'WEEKLY', 'MANUAL' , NOW(), 'Weekly', 1, 'FINWORLD', 'MANUAL', NOW(), 52, 6 );
+insert into finworld.frequency (id, code, createdBy,createdDate, display, isActive, systemofRecordsX, updatedBy, updatedDate, yearlyTransaction, sortOrder) 
+	values(7, 'BIWEEKLY', 'MANUAL' , NOW(), 'Bi-Weekly', 1, 'FINWORLD', 'MANUAL', NOW(), 26, 7 );	
+insert into finworld.frequency (id, code, createdBy,createdDate, display, isActive, systemofRecordsX, updatedBy, updatedDate, yearlyTransaction, sortOrder) 
+	values(8, 'ONETIME', 'MANUAL' , NOW(), 'One-Time', 1, 'FINWORLD', 'MANUAL', NOW(), 0, 8 );	
