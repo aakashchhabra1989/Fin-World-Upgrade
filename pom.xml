@@ -10,7 +10,7 @@
 	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
 	<properties>
-		<java-version>1.7</java-version>
+		<java-version>1.8</java-version>
 		<javax.servlet-version>3.1.0</javax.servlet-version>
 		<org.springframework-version>3.0.5.RELEASE</org.springframework-version>
 		<jackson.version>1.5.0</jackson.version>
@@ -352,6 +352,36 @@
 		    <artifactId>javax.ws.rs-api</artifactId>
 		    <version>2.0</version>
 		</dependency>
+		<dependency>
+			<groupId>com.sun.xml.bind</groupId>
+			<artifactId>jaxb-core</artifactId>
+			<version>2.3.0.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api -->
+		<dependency>
+		    <groupId>javax.xml.bind</groupId>
+		    <artifactId>jaxb-api</artifactId>
+		    <version>2.3.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/javax.xml.ws/jaxws-api -->
+		<dependency>
+		    <groupId>javax.xml.ws</groupId>
+		    <artifactId>jaxws-api</artifactId>
+		    <version>2.2.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.sun.xml.bind</groupId>
+			<artifactId>jaxb-impl</artifactId>
+			<version>2.3.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/javax.jws/javax.jws-api -->
+		<dependency>
+		    <groupId>javax.jws</groupId>
+		    <artifactId>javax.jws-api</artifactId>
+		    <version>1.1</version>
+		</dependency>
+		
 	</dependencies>
     <build>
         <plugins>
